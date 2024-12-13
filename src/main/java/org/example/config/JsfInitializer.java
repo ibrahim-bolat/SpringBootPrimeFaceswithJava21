@@ -6,7 +6,9 @@ import jakarta.servlet.ServletContainerInitializer;
 import jakarta.servlet.ServletContext;
 import jakarta.servlet.ServletException;
 import com.sun.faces.config.FacesInitializer;
+import org.springframework.context.annotation.Configuration;
 
+@Configuration
 public class JsfInitializer implements ServletContextInitializer {
 
     @Override
